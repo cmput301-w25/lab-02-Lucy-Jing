@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Our main app theme -->
+    <style name="Theme.ListyCity" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- The top bar background color -->
+        <item name="android:colorPrimary">@color/greenPrimary</item>
+
+        <!-- The status bar color on some devices/versions -->
+        <item name="android:colorPrimaryDark">@color/greenPrimary</item>
+
+        <!-- Ensures the action bar title text is white -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+        <!-- (Optional) accent color for highlights/controls -->
+        <item name="android:colorAccent">@color/white</item>
+    </style>
+
+</resources>
